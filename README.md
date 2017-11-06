@@ -11,9 +11,12 @@ To demonstrate, lets take an example of a product in the inventory, say Iphone X
 
 * Initially the quantity of Iphone X is 11
 <img src="/images/customerjs/initialSQL.JPG" height=400px>
-* the user makes a request for  Iphones
+
+* the user makes a request for 1 Iphone
 <img src="/images/customerjs/example1.gif" height=400px>
+
 * This request reflects to the database and subtracts the requested quantity from the database
 <img src="/images/customerjs/sql2.JPG" height=400px>
+
 * Finally, if the user makes a request for a quantity greater than what's available in the stock, the request is identified and handled accordingly
 <img src="/images/customerjs/example2.gif" height=400px>
