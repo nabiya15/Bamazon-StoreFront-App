@@ -9,14 +9,14 @@ First the database was set up with MySql that contains the inventory information
 
 To demonstrate, lets take an example of a product in the inventory, say Iphone X.
 
-* Initially the quantity of Iphone X is 11
+* Initially the quantity of Iphone X is 11.
 <img src="/images/customerjs/initialSQL.JPG" height=400px>
 
-* the user makes a request for 1 Iphone
+* The user makes a request for 1 Iphone which is passed to the database.
 <img src="/images/customerjs/example1.gif" height=400px>
 
-* This request reflects to the database and subtracts the requested quantity from the database
+* This request reflects to the database where the availaible quantity is checked and the requested amount subtracted from the available quantity. 
 <img src="/images/customerjs/sql2.JPG" height=400px>
 
-* Finally, if the user makes a request for a quantity greater than what's available in the stock, the request is identified and handled accordingly
+* Finally, if the user makes a request for a quantity greater than what's available in the stock, the request is identified and handled accordingly.
 <img src="/images/customerjs/example2.gif" height=400px>
